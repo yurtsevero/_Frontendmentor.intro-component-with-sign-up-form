@@ -1,0 +1,63 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --red: #ff7979;
+  --green: #38cc8b;
+  --blue: #5e54a4;
+  --dark-blue: #3d3b48;
+  --grayish-blue: hsl(246, 25%, 77%);
+}
+
+body {
+  background: var(--red) url(images/bg-intro-mobile.png) repeat center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header {
+  width: 375px;
+  margin: 88px 24px 64px 24px;
+  text-align: center;
+  color: #ffffff;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+header p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+main {
+  width: 375px;
+  height: 554px;
+  margin: 0px 24px 64px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
