@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 header {
@@ -51,13 +51,77 @@ main {
   margin: 0px 24px 64px 24px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
+
+#btn__try {
+  width: 327px;
+  height: 88px;
+  background: var(--blue);
+  color: #ffffff;
+  font-size: 0.94rem;
+  line-height: 1.625rem;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border: none;
+}
+#btn__try .first-line {
+  display: block;
+}
+.bold {
+  font-weight: bold;
+}
+
 form ul {
+  width: 327px;
+  height: 442px;
+  background: #ffffff;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 24px;
+  padding: 30px;
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  border-radius: 10px;
+}
+li {
+  margin-bottom: 16px;
+}
+
+li input {
+  width: 279px;
+  height: 56px;
+  border: solid 1px rgb(222, 222, 222);
+  border-radius: 5px;
+  padding: 12px;
+}
+input::placeholder {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #3d3b48;
+  opacity: 0.75;
+}
+li p {
+  display: none;
+}
+
+#btn__Claim {
+  background-color: var(--green);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.94rem;
+}
+
+.disclaimer {
+  width: 249px;
+  color: #bdb7d4;
+  text-align: center;
+  font-size: 0.687rem;
+  line-height: 21px;
+}
+.disclaimer span {
+  color: var(--red);
 }
