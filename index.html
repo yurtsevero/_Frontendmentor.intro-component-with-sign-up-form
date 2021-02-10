@@ -29,7 +29,7 @@
       </p>
     </header>
     <main>
-      <button id="btn__try">
+      <button class="btn" id="btn__try">
         <span class="first-line">
           <span class="bold">Try it free 7 days</span> then</span
         >
@@ -38,7 +38,7 @@
       <form action="">
         <ul>
           <li>
-            <input type="text" placeholder="First Name" id="fname" />
+            <input type="text" placeholder="First Name" id="fname"  autofocus="autofocus" />
             <p>First Name cannot be empty</p>
           </li>
           <li>
@@ -55,6 +55,7 @@
           </li>
           <li>
             <input
+			  class="btn"
               type="button"
               value="Claim your free trial"
               id="btn__Claim"
@@ -62,7 +63,7 @@
           </li>
           <li class="disclaimer">
             By clicking the button, you are agreeing to our
-            <span>Terms and Services</span>
+            <a href=#>Terms and Services</a>
           </li>
         </ul>
       </form>

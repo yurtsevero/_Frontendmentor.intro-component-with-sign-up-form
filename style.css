@@ -105,9 +105,12 @@ input::placeholder {
   opacity: 0.75;
 }
 li p {
-  display: none;
+ 
 }
-
+.btn {
+	
+cursor:pointer
+}
 #btn__Claim {
   background-color: var(--green);
   color: #ffffff;
@@ -122,6 +125,7 @@ li p {
   font-size: 0.687rem;
   line-height: 21px;
 }
-.disclaimer span {
+.disclaimer a {
+	text-decoration:none;
   color: var(--red);
 }
