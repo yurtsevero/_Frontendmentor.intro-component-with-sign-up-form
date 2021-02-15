@@ -125,3 +125,7 @@ li p {
 .disclaimer span {
   color: var(--red);
 }
+.btn {
+  cursor: pointer;
+  outline: none;
+}
