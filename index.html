@@ -38,20 +38,40 @@
       <form action="">
         <ul>
           <li>
-            <input type="text" placeholder="First Name" id="fname" />
-            <p>First Name cannot be empty</p>
+            <input type="text" placeholder="First Name" id="fname" autofocus />
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              class="error__icon"
+            />
+            <p class="error__text">First Name cannot be empty</p>
           </li>
           <li>
             <input type="text" placeholder="Last Name" id="lname" />
-            <p>Last Name cannot be empty</p>
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              class="error__icon"
+            />
+            <p class="error__text">Last Name cannot be empty</p>
           </li>
           <li>
             <input type="text" placeholder="Email Address" id="email" />
-            <p>Looks like this is not an email</p>
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              class="error__icon"
+            />
+            <p class="error__text">Looks like this is not an email</p>
           </li>
           <li>
             <input type="password" placeholder="Password" id="password" />
-            <p>Password cannot be empty</p>
+            <img
+              src="images/icon-error.svg"
+              alt="error icon"
+              class="error__icon"
+            />
+            <p class="error__text">Password cannot be empty</p>
           </li>
           <li>
             <input
@@ -63,7 +83,7 @@
           </li>
           <li class="disclaimer">
             By clicking the button, you are agreeing to our
-            <span>Terms and Services</span>
+            <a href="#">Terms and Services</a>
           </li>
         </ul>
       </form>
